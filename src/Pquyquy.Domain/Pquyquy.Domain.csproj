@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<OutputType>Library</OutputType>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Pquyquy.Domain</AssemblyName>
+		<AssemblyTitle>Pquyquy.Domain Library</AssemblyTitle>
+		<Product>Pquyquy.Domain Library</Product>
+		<RootNamespace>Pquyquy.Domain</RootNamespace>
+		<Authors>Andres Martinez</Authors>
+		<Copyright>Copyright © 2024</Copyright>
+		<Description>Base library for the domain layer.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
